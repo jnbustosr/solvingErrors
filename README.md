@@ -1,5 +1,6 @@
 # Deploying symfony process
 ```
+php7.4 composer.phar dump-env prod
 php7.4 composer.phar install
 php7.4 bin/console cache:clear
 php7.4 bin/console assets:install ./public
